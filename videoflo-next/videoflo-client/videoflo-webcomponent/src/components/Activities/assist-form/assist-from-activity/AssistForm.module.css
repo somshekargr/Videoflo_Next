@@ -1,0 +1,45 @@
+.captureBtn {
+    color: white !important;
+    background-color: #3f51b5 !important;
+    text-transform: none !important;
+    margin: 10px auto !important;
+    cursor: pointer;
+  }
+  
+  .panHeader {
+    border-bottom: 1px solid #a09e9e !important;
+    padding-bottom: 0 !important;
+  }
+  
+  .panActionContent {
+    border-bottom: 1px solid #a09e9e !important;
+    padding-top: 0 !important;
+  }
+  
+  .combobtns {
+    float: right !important;
+  }
+  .errorbtn {
+    text-transform: none !important;
+    color: white !important;
+    background-color: #f44336 !important;
+  }
+  .btn {
+    color: white !important;
+    background-color: #3f51b5 !important;
+    text-transform: none !important;
+  }
+  
+  .capturedPanCard {
+    width: auto;
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+    max-width: 70%;
+  }
+  
+  .image {
+    border-radius: 5%;
+  }
+  
+  

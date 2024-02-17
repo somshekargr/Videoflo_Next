@@ -1,0 +1,11 @@
+.captureBtn {
+    color: white !important;
+    background-color: #3f51b5 !important;
+    text-transform: none !important;
+    margin: 10px auto !important;
+    cursor: pointer;
+  }
+  
+.sourceImage{
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.errorbtn {
+    text-transform: none !important;
+    color: white !important;
+    background-color: #FF4081 !important;
+}
+
+.btn {
+    color: white !important;
+    background-color: #F44336 !important;
+    text-transform: none !important;
+}
+
+.startbtn{
+    color: white !important;
+    background-color: #3F51B5 !important;
+    text-transform: none !important;
+    float: right;
+}
+
+.btnalign{
+    float: right;
+}

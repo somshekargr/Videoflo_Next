@@ -1,0 +1,108 @@
+{
+    "awaitCallJoining": true,
+    "awaitMessage": {
+        "title": "Customer Onboarding in progress",
+        "description": "Please wait for the customer onboarding to complete"
+    },
+    "consent": {
+        "title": "Thank you for your interest in Integra Video KYC Pilot.",
+        "subTitle": "Here are some instructions you need to know, before starting your video based KYC process.",
+        "body": "<ol><li>Follow the instructions to regarding camera, mic and location access as they appear on the next screen.</li><li>Keep your PAN Card along with Specimen Signature (signed on a white paper) handy for the Video KYC session.</li><li>Tick the below consent checkbox to agree to our terms and click on \"Proceed for Video KYC\" button.</li></ol>",
+        "checkboxText": "I hereby authorize Integra Micro Systems Pvt. Ltd. to conduct Video KYC and to collect and store my \"Proof of Identity\", \"Proof of Address\", \"Specimen Signature\" &amp; \"Live Picture\" during the Video KYC process for the purpose of KYC identity verification.",
+        "validationErrorText": "You need to give your consent before proceeding further.",
+        "footer": "You will be redirected from the current page after clicking on \"Proceed to Video KYC\" button to start the Video KYC session.",
+        "continueButtonText": "Proceed to Video KYC"
+    },
+    "devicePermissions": {
+        "title": "Give Permissions",
+        "subTitle": "We need a few permissions before we can connect you to the video call",
+        "geolocation": "Please give permission to access your location.",
+        "ipAddress": "",
+        "microphone": "Please give access to microphone.",
+        "microphoneNotFoundText": "Oops! Mic is not available",
+        "camera": "Please give access to camera.",
+        "cameraNotFoundText": "Oops! Camera is not available",
+        "rearCamera": "Please give access to back camera.",
+        "rearCameraNotFoundText": "Oops! Rear camera is not available. While you may still continue, we advice you to use a device with rear camera to ensure any documents that are captured, are as clear as possible.",
+        "isRearCameraMandatory": false
+    },
+    "checklist": [
+        {
+            "id": "ensureDocuments",
+            "title": "Do you have all the documents handy?",
+            "subTitle": "Make sure that:",
+            "items": [
+                "You have your original PAN Card with you",
+                "You have put your signature on a blank white paper, it is clearly legibile and matches your signature"
+            ],
+            "continueButtonText": "Yes, I have them ready"
+        },
+        {
+            "id": "ensureEnvironment",
+            "title": "Are you ready for the video call?",
+            "subTitle": "Ensure that:",
+            "items": [
+                "You are in a well lit surrounding",
+                "There are no background noises or disturbance"
+            ],
+            "continueButtonText": "Yes, I am ready"
+        },
+        {
+            "id": "goodInternet",
+            "title": "Almost there!",
+            "body": "<h3>Do you have a strong internet connection?</h3><p>Ensure you are on a stable mobile network or, use a WiFi network.</p>",
+            "footer": "Upon pressing the \"Start Video Call\" button, you will be connected to an authorized representative for a quick video-based KYC process.",
+            "continueButtonText": "Start Video Call"
+        }
+    ],
+    "isCompleted": false
+}
+-----------------------------------------------------
+first consent button click
+{
+    "consentTimestamp": "2022-06-28T03:45:01.533Z"
+}
+onConsentAcquired
+-------------------------------------------------------
+second consent 
+{
+    "locationPermissionTimestamp": "2022-06-28T03:45:01.927Z",
+    "geoCoordinates": {
+        "latitude": 12.9466368,
+        "longitude": 77.6208384,
+        "accuracy": 15557.346559287262
+    },
+    "microphonePermissionTimestamp": "2022-06-28T03:45:02.232Z",
+    "cameraPermissionTimestamp": "2022-06-28T03:45:04.156Z",
+    "rearCameraPermissionTimestamp": "2022-06-28T03:45:05.018Z"
+}
+onPermissionsAcquired
+-----------------------------------------------------------
+
+3rd consent
+{
+    "checklistId": "ensureDocuments",
+    "timestamp": "2022-06-28T03:48:47.735Z"
+}
+onPrecallCustomChecklistCompleted
+---------------------------------------------------------
+last one (almost there)
+{
+    "checklistId": "ensureEnvironment",
+    "timestamp": "2022-06-28T03:49:46.724Z"
+}
+onPrecallCustomChecklistCompleted
+-------------------------------------------------------
+start video call button
+
+{
+    "checklistId": "goodInternet",
+    "timestamp": "2022-06-28T03:50:31.726Z"
+}
+onPrecallCustomChecklistCompleted
+
+then onPrecallChecksCompleted
+
+{
+    "hasPendingPrecallChecks": false
+}

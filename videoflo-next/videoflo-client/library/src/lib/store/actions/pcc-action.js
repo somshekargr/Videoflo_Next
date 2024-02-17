@@ -1,0 +1,3 @@
+export const INITIALISE_PCC = "INITIALISE_PCC";
+export const NEXT_CONSENT = "NEXT_CONSENT";
+export const CHANGE_PCC_STATUS = "CHANGE_PCC_STATUS"

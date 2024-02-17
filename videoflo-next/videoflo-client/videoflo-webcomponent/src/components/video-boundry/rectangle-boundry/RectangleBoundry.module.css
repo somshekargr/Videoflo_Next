@@ -1,0 +1,37 @@
+.boundryTop {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: black;
+  height: 20%;
+  opacity: 0.3 !important;
+}
+
+.boundryLeft {
+  position: absolute;
+  width: 15%;
+  top: 20%;
+  background: black;
+  opacity: 0.3 !important;
+  height: 60%;
+  left: 0;
+}
+
+.boundryRight {
+  position: absolute;
+  width: 15%;
+  top: 20%;
+  background: black;
+  opacity: 0.3 !important;
+  height: 60%;
+  right: 0;
+}
+
+.boundryBottom {
+  position: absolute;
+  width: 100%;
+  background: black;
+  opacity: 0.3 !important;
+  height: 20%;
+  bottom: 0;
+}

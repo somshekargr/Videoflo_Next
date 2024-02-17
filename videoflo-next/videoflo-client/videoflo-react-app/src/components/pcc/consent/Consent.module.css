@@ -1,0 +1,27 @@
+.boxStyle{
+    max-width: 520px;
+    margin: 0 auto;
+    float: none;
+    margin-top: 50px;
+    padding: auto;
+    margin-bottom: 10px;
+}
+.ebtnStyle {
+    color: white !important;
+    background-color: #3F51B5 !important;
+    float: right;
+    margin: 1em !important;
+    text-transform: none !important;
+}
+
+.dbtnStyle {
+    color: white !important;
+    background-color: #E0E0E0 !important;
+    float: right;
+    margin: 1em !important;
+    text-transform: none !important;
+}
+
+.smallText {
+    color: gray;
+}

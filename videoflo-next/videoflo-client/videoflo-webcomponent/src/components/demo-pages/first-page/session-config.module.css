@@ -1,0 +1,15 @@
+.space{
+padding: 12px;
+}
+
+.spaceadd{
+    padding: 12px;
+    margin-top: 7px !important;
+}
+
+.submitbtn{
+    float: right;
+    text-transform: none !important;
+    padding: 8px;
+    margin-right: 12px !important;
+}
